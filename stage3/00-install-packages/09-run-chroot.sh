@@ -9,5 +9,4 @@ if [ ! -e "/dev/urandom" ]; then
     chown root:root /dev/urandom
 fi
 
-pip install numpy
 pip3 install numpy
